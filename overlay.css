@@ -1,0 +1,60 @@
+BODY {
+	font-family: Arial;	
+	width: 100%;
+	max-width: 950px;
+	margin: auto
+}
+
+#topnav {
+	text-align:  right;		
+	margin:0px;
+	padding: 0px;
+}
+#topnav LI {
+	display: inline;
+	margin-left: 8px;
+	background-color: #eee;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+#pageheader {
+	height: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 15px; 
+	background-image: url("project_cargo_banner.jpg");
+	background-color: black;
+	
+	/* border:1px dashed red;*/
+}
+
+
+#inlay {
+	width: 80%;
+	height: 200px; 
+	border-radius: 8px;
+	/* margin-top: 25px; */
+	margin-left: auto; margin-right:auto;
+	background-color: rgba(250, 250, 250, 0.80);
+}
+
+#inlay #inlaycontent {
+	margin: 10px;
+	margin-top:15px;
+	color: black;
+}
+
+SECTION {
+	min-height:350px;
+}
+SECTION HEADER {
+	background: none;	
+}
+
+FOOTER {
+	padding:10px;
+	text-align: center;
+	background-color: #444;
+	color: white;
+}
